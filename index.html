@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famiglia Londi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Famiglia Londi</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#membri" class="nav-link">Membri</a></li>
+                <li><a href="#galleria" class="nav-link">Galleria</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section active">
+        <!-- Hero con foto full screen -->
+        <div class="hero-fullscreen">
+            <div class="hero-image-container">
+                <img src="hero.jpg" alt="Famiglia Londi" class="hero-image">
+            </div>
+            <div class="hero-overlay">
+                <h1 class="hero-title">Famiglia Londi</h1>
+                <p class="hero-subtitle">Uniti ovunque siamo</p>
+                <div class="scroll-indicator">
+                    <span>Scorri per scoprire la nostra storia</span>
+                    <div class="scroll-arrow">↓</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Storyline Section con scroll animations -->
+        <div class="storyline-section">
+            <div class="storyline-intro">
+                <h2 class="storyline-title">La Nostra Storia</h2>
+                <p class="storyline-subtitle">Un viaggio fatto di momenti, distanze e amore infinito</p>
+            </div>
+
+            <!-- Story Item 1: Gli Inizi -->
+            <div class="story-item" data-story="1">
+                <div class="story-image">
+                    <img src="fratelli-da-piccoli.jpg" alt="I fratelli da piccoli" class="story-photo">
+                </div>
+                <div class="story-content">
+                    <h3 class="story-heading">Gli Inizi</h3>
+                    <p class="story-text">Una famiglia nata a Milano e Monza, cresciuta con valori di apertura mentale, curiosità e voglia di scoprire il mondo. Mamma e Papà ci hanno cresciuto senza preconcetti, insegnandoci ad abbracciare ogni novità con entusiasmo.</p>
+                </div>
+            </div>
+
+            <!-- Story Item 2: I Genitori Migliori del Mondo -->
+            <div class="story-item reverse" data-story="2">
+                <div class="story-image">
+                    <img src="mamma-e-papa.jpg" alt="Mamma e Papà" class="story-photo">
+                </div>
+                <div class="story-content">
+                    <h3 class="story-heading">I Genitori Migliori del Mondo</h3>
+                    <p class="story-text">Due genitori che hanno fatto tutto per noi fratelli, dandoci gli strumenti per scoprire il mondo e guardarlo con occhi differenti. Ci hanno insegnato la curiosità, l'apertura mentale e il coraggio di esplorare.</p>
+                </div>
+            </div>
+
+            <!-- Story Item 3: La Distanza Geografica -->
+            <div class="story-item" data-story="3">
+                <div class="story-image">
+                    <img src="fratelli-parigi.jpg" alt="I fratelli a Parigi" class="story-photo">
+                </div>
+                <div class="story-content">
+                    <h3 class="story-heading">Sparsi per il Mondo</h3>
+                    <p class="story-text">Una famiglia atipica: tutti e tre i figli si sono trasferiti all'estero. Tommi a Berlino, Tino a Maastricht, e Niki ora a Melle vicino a Saluzzo. Mamma e Papà rimasti a Monza con Beca. Geograficamente distanti, ma mai lontani nel cuore.</p>
+                </div>
+            </div>
+
+            <!-- Story Item 4: I Momenti Belli -->
+            <div class="story-item reverse" data-story="4">
+                <div class="story-image">
+                    <img src="cena-di-famiglia.jpg" alt="Cena di famiglia" class="story-photo">
+                </div>
+                <div class="story-content">
+                    <h3 class="story-heading">I Momenti Belli</h3>
+                    <p class="story-text">E poi ci sono i momenti belli, quelli che rendono tutto speciale. Le risate, le riunioni, le avventure condivise. Ogni momento insieme è un tesoro prezioso.</p>
+                </div>
+            </div>
+
+            <!-- Story Item 5: Il Tatuaggio di Famiglia -->
+            <div class="story-item" data-story="5">
+                <div class="story-image">
+                    <img src="tatuaggio-di-famiglia.jpg" alt="Tatuaggio di famiglia" class="story-photo">
+                </div>
+                <div class="story-content">
+                    <h3 class="story-heading">Il Tatuaggio di Famiglia</h3>
+                    <p class="story-text">Tre croci. Un simbolo semplice ma potente: i tre fratelli. Tommi, con le sue mani esperte, ha tatuato tutti noi, persino se stesso. Mamma e Papà non hanno esitato. Un segno indelebile sulla pelle che rappresenta il nostro legame indissolubile.</p>
+                </div>
+            </div>
+
+            <!-- Story Item 6: Uniti per Sempre -->
+            <div class="story-item reverse" data-story="6">
+                <div class="story-image">
+                    <img src="famiglia-a-parigi-2.jpg" alt="Famiglia unita a Parigi" class="story-photo">
+                </div>
+                <div class="story-content">
+                    <h3 class="story-heading">Uniti per Sempre</h3>
+                    <p class="story-text">Nonostante tutto, siamo una famiglia unita. Ci vogliamo tutto il bene del mondo. La distanza fisica non ha mai scalfito il nostro legame. Siamo i Londi, e questo significa famiglia, sempre.</p>
+                </div>
+            </div>
+
+            <!-- Mappa delle Locations -->
+            <div class="family-map">
+                <h3 class="map-title">Dove Siamo Ora</h3>
+                <div class="locations-grid">
+                    <div class="location-item">
+                        <span class="location-emoji">🇮🇹</span>
+                        <h4>Monza</h4>
+                        <p>Mamma, Papà & Beca</p>
+                    </div>
+                    <div class="location-item">
+                        <span class="location-emoji">🇩🇪</span>
+                        <h4>Berlino</h4>
+                        <p>Tommi & Miriam</p>
+                    </div>
+                    <div class="location-item">
+                        <span class="location-emoji">🇳🇱</span>
+                        <h4>Maastricht</h4>
+                        <p>Tino</p>
+                    </div>
+                    <div class="location-item">
+                        <span class="location-emoji">🇮🇹</span>
+                        <h4>Melle</h4>
+                        <p>Niki</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membri Section -->
+    <section id="membri" class="membri-section">
+        <div class="container">
+            <h2 class="section-title">I Nostri Membri</h2>
+
+            <!-- Genitori -->
+            <div class="membri-group">
+                <h3 class="group-title">I Genitori</h3>
+                <div class="membri-grid">
+                    <div class="member-card">
+                        <div class="member-image-container">
+                            <img src="mamma.jpg" alt="Mamma" class="member-photo">
+                        </div>
+                        <div class="member-info">
+                            <h4 class="member-name">Mamma</h4>
+                            <p class="member-birth">Nata nel 1964</p>
+                            <p class="member-location">📍 Monza, Italia</p>
+                            <p class="member-description">La tenera e dolce mamma, con un cuore grande come un sole e un'empatia ineguagliabile. Nata e cresciuta tra Milano e Monza, giornalista e scrittrice, maratoneta con una passione per le storie e le persone.</p>
+                        </div>
+                    </div>
+
+                    <div class="member-card">
+                        <div class="member-image-container">
+                            <img src="papa.jpg" alt="Papà" class="member-photo">
+                        </div>
+                        <div class="member-info">
+                            <h4 class="member-name">Papà</h4>
+                            <p class="member-birth">Nato nel 1963</p>
+                            <p class="member-location">📍 Monza, Italia</p>
+                            <p class="member-description">L'orso sempre pronto a tutto per i suoi figli, dimostra l'affetto in modo pragmatico: qualsiasi problema lui è sempre pronto ad aiutare. Operatore di ripresa di Striscia la Notizia, nato e cresciuto tra Varese e Milano. Maratoneta ora invece si diletta nell'alta cucina gourmet. Bastian contrario sempre pronto a una sana discussione.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- I Fratelli -->
+            <div class="membri-group">
+                <h3 class="group-title">I Fratelli</h3>
+                <div class="membri-grid">
+                    <div class="member-card">
+                        <div class="member-image-container">
+                            <img src="tommi.jpg" alt="Tommi" class="member-photo">
+                        </div>
+                        <div class="member-info">
+                            <h4 class="member-name">Tommi</h4>
+                            <p class="member-birth">Nato nel 1992</p>
+                            <p class="member-location">📍 Berlino, Germania</p>
+                            <p class="member-description">Il più grande dei tre fratelli, pioniere del lasciare l'Italia. A 18 anni è partito per l'Australia, e ha viaggiato tantissimo: Nuova Zelanda, Tailandia, Israele. Ora abita a Berlino, città dove ha conosciuto la sua dolce metà: Miriam. Ragazzo dolce, intelligente, simpatico e attivo, sempre capace di tirarti su. Ama scalare con i suoi amici facendo Boulder.</p>
+                        </div>
+                    </div>
+
+                    <div class="member-card">
+                        <div class="member-image-container">
+                            <img src="Niki.jpg" alt="Niki" class="member-photo">
+                        </div>
+                        <div class="member-info">
+                            <h4 class="member-name">Niki</h4>
+                            <p class="member-birth">Nato nel 1996</p>
+                            <p class="member-location">📍 Melle (vicino a Saluzzo), Italia</p>
+                            <p class="member-description">Il figlio intermedio, partito a 19 anni per l'Australia dove ha fatto corsi di audio engineering. Dedicato alla sua musica elettronica, è un ragazzo apertissimo, con molta intelligenza sociale e con un grandissimo cuore (non amante delle coccole tra fratelli però). Abile cuoco e intelligentissimo.</p>
+                        </div>
+                    </div>
+
+                    <div class="member-card">
+                        <div class="member-image-container member-image-cropped">
+                            <img src="tino.jpg" alt="Tino" class="member-photo member-photo-cropped">
+                        </div>
+                        <div class="member-info">
+                            <h4 class="member-name">Tino</h4>
+                            <p class="member-birth">Nato nel 2003</p>
+                            <p class="member-location">📍 Maastricht, Paesi Bassi</p>
+                            <p class="member-description">Il più piccolo dei tre fratelli. Ragazzo che abita a Maastricht nei Paesi Bassi, suona il pianoforte e ha una passione per creare siti web. Ragazzo solare, ama alla follia la sua famiglia e farebbe di tutto per loro. Amante dei tatuaggi e avido collettore di essi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Le Aggiunte -->
+            <div class="membri-group">
+                <h3 class="group-title">Le Aggiunte Speciali</h3>
+                <div class="membri-grid">
+                    <div class="member-card">
+                        <div class="member-image-container">
+                            <img src="beca.jpg" alt="Beca" class="member-photo">
+                        </div>
+                        <div class="member-info">
+                            <h4 class="member-name">Beca</h4>
+                            <p class="member-birth">Adottata nel 2015</p>
+                            <p class="member-location">📍 Monza, Italia</p>
+                            <p class="member-description">Il cane della famiglia, pastore tedesco pelosissimo. Amabile e carina, tenera e coccolosa, giocherellona e monella. Il cuore peloso della famiglia che vive con Mamma e Papà.</p>
+                        </div>
+                    </div>
+
+                    <div class="member-card">
+                        <div class="member-image-container">
+                            <img src="miriam.jpg" alt="Miriam" class="member-photo">
+                        </div>
+                        <div class="member-info">
+                            <h4 class="member-name">Miriam</h4>
+                            <p class="member-birth">Nata a Erlangen, Germania</p>
+                            <p class="member-location">📍 Berlino, Germania</p>
+                            <p class="member-description">La fidanzata di Tommi. Ragazza meravigliosamente bella, con capelli biondi e occhi azzurri. Ragazza dolce, empatica e con grande intelligenza emotiva. Le piace tessere e fare l'uncinetto.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galleria Section -->
+    <section id="galleria" class="galleria-section">
+        <div class="container">
+            <h2 class="section-title">Galleria</h2>
+            <p class="galleria-subtitle">I nostri momenti più belli</p>
+
+            <div class="gallery-masonry">
+                <div class="gallery-item gallery-large" data-index="0">
+                    <img src="IMG_2733.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-medium" data-index="1">
+                    <img src="IMG_2734.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-small" data-index="2">
+                    <img src="IMG_2735.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-medium" data-index="3">
+                    <img src="IMG_2736.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-large" data-index="4">
+                    <img src="IMG_2737.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-small" data-index="5">
+                    <img src="IMG_2738.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-medium" data-index="6">
+                    <img src="IMG_2739.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-small" data-index="7">
+                    <img src="IMG_2740.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-large" data-index="8">
+                    <img src="IMG_2741.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-medium" data-index="9">
+                    <img src="IMG_2742.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-small" data-index="10">
+                    <img src="IMG_2743.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-medium" data-index="11">
+                    <img src="IMG_2744.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-large" data-index="12">
+                    <img src="IMG_2745.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-small" data-index="13">
+                    <img src="IMG_2746.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-medium" data-index="14">
+                    <img src="IMG_2747.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-large" data-index="15">
+                    <img src="IMG_2748.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-small" data-index="16">
+                    <img src="IMG_2749.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-medium" data-index="17">
+                    <img src="IMG_2750.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-tiny" data-index="18">
+                    <img src="IMG_2751.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-large" data-index="19">
+                    <img src="IMG_2752.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-medium" data-index="20">
+                    <img src="IMG_2753.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-small" data-index="21">
+                    <img src="IMG_2754.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-medium" data-index="22">
+                    <img src="IMG_2755.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-large" data-index="23">
+                    <img src="IMG_2756.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-small" data-index="24">
+                    <img src="IMG_2757.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-medium" data-index="25">
+                    <img src="IMG_2758.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-large" data-index="26">
+                    <img src="IMG_2759.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-small" data-index="27">
+                    <img src="IMG_2760.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-medium" data-index="28">
+                    <img src="IMG_2761.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-small" data-index="29">
+                    <img src="IMG_2762.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-large" data-index="30">
+                    <img src="IMG_2763.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-medium" data-index="31">
+                    <img src="IMG_2764.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-small" data-index="32">
+                    <img src="IMG_2765.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-medium" data-index="33">
+                    <img src="IMG_2766.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-large" data-index="34">
+                    <img src="IMG_2767.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-small" data-index="35">
+                    <img src="IMG_2768.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+                <div class="gallery-item gallery-medium" data-index="36">
+                    <img src="IMG_2769.jpg" alt="Famiglia Londi" class="gallery-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Famiglia Londi - Uniti ovunque siamo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
